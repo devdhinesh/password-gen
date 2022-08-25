@@ -1,6 +1,6 @@
 import http.client
 
-conn = http.client.HTTPConnection("127.0.0.1:8000")
+conn = http.client.HTTPSConnection("password-server-api.herokuapp.com")
 
 headers = {
     'X-RapidAPI-Key': "2108f80b77mshaf0336394348824p1db97ajsn3cb95bcc0723",
